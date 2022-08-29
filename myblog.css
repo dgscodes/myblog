@@ -1,0 +1,271 @@
+body{
+	background-color: lightsteelblue;
+	text-align: left;
+	color: white;
+}
+
+h1{
+	
+	font-family: Helvetica Neue;
+	text-align: center;
+	color: white;
+}
+
+
+.candle{
+text-align: right;
+color: white;
+}
+
+
+.span{
+	color: white;
+	text-align: left;
+}
+
+div{
+	text-align: left;
+	color: white;
+	padding-right: 30px;
+}
+
+
+#hp  {
+float: right;    
+ margin: 0 0 0 15px;
+ color: white;
+}
+
+mark{
+	color: gray;
+}
+
+.container {
+  line-height: 1.4;
+  text-align: center;
+  padding: 44px;
+  color: #333;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.highlight-container{
+	color: white;
+}
+
+.container{
+	color: white;
+}
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #ffd500;
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
+
+.container {
+  height: 0vh;
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h2 {
+  position: relative;
+  font-size: 40px;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(111.3deg, #AD6F72 9.6%, #ffd500 93.6%);
+}
+
+button{
+	background-color: white;
+
+}
+
+main{
+	background-color: white;
+	padding: 30px;
+	border-radius: 30px;
+	color: black;
+	box-shadow: 5px 2px 100px black;
+	}
+
+	main:hover{
+box-shadow: 5px 2px 100px black;
+	}
+
+}
+
+h1 main{
+	color: black;
+}
+
+.texty p{
+	font-size: 20px;
+	font-family: Helvetica;
+	color: black;
+}
+
+.gform{
+	text-align: center;
+
+}
+
+
+.linky {
+	background-image: linear-gradient(to right, #AD6F72 0%, #ffd520 100%);
+	border-radius: 40px;
+  box-sizing: border-box;
+	color: #00a84f;
+	display: block;
+	font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+	height: 80px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 264px;
+	z-index: 2;
+}
+
+.linky:hover {
+	color: #fff;
+}
+
+.linky span {
+	align-items: center;
+	background: white;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+	color: black;
+}
+
+.linky:hover span {
+	background: transparent;
+}
+
+
+.title{
+    color: black;
+    text-transform: none;
+    font-family: Helvetica;
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: left;
+}
+.title-content{
+    display: block; /*Makes each line of text inside of the span 100% width so it will fall on the next line.*/
+    opacity: 0;
+    animation: revealText .7s forwards; /*Adding the animation over .5 seconds. Forwards means the last state will be the styles applied at 100% (to).*/
+}
+/*Adding individual animation delays so that the text animates in at different stages.*/
+.title-second{
+    animation-delay: .175s;
+}
+.title-third{
+    animation-delay: .25s;
+}
+
+/*From and to is just another way of saying start at 0 and end at 100%.*/
+@keyframes revealText {
+    from{
+        transform: translateY(20px); /*Moves the element down by 20px.*/
+    }
+    to{
+        opacity: 1; /*Turn the opacity back on so that we can see the element in it's final animation state.*/
+        transform: none; /*Removes the 20px so that the text will be at the normal starting position at the end of the animation.*/
+    }
+}
+
+.a2a_dd{
+	text-decoration: none;
+	color: gray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3{
+	font-size: 15px;
+	color: #9F9F9F;
+font-family: Helvetica Neue;
+font-weight: 400;
+}
+
+.br2{
+	height: 0,11px;
+
+}
+
+p{
+	line-height: 25px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.read{
+	text-align: center;
+	font-weight: 600;
+	font-family: Helvetica;
+}
+
+img{
+	border-radius: 20px;
+	position: right centre;
+}
+
+p span{
+	font-family: Encode Sans Condensed;
+	color: green;
+
+}
+
+a{
+	text-decoration: none;
+	color:steelblue;
+}
+
+footer{
+	text-align: center;
+}
