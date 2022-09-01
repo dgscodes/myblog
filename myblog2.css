@@ -10,7 +10,6 @@ main{
 }
 
 h2{
-
 text-align: center;
 font-family: Helvetica Neue;
 font-size: 20px;
@@ -291,6 +290,7 @@ p span{
 	color: green;
 
 }
+
 
 a{
 	text-decoration: none;
